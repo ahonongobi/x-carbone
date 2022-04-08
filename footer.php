@@ -13,7 +13,7 @@
                 <p><strong>Phone</strong> : <a href="tel:+(12)234-11-24">+229 64745149</a></p>
               </li>
               <li>
-                <p><strong>Email</strong> : <a href="mailto:contact@xcarbone.com">contact@xcarbone.com</a></p>
+                <p><strong>Email</strong> : <a href="mailto:admin@xcarbone.com">admin@xcarbone.com</a></p>
               </li>
             </ul>
           </div>

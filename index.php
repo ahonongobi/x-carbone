@@ -274,7 +274,7 @@
                         <div class="contact-info">
                            <img src="assets/images/envelope.png" alt="" class="img-fluid">
                             <h4>Mail</h4>
-                            <p><a href="mailto:mail@example.com" class="email">contact@xcarbone.com</a></p>
+                            <p><a href="mailto:admin@xcarbone.com" class="email">admin@xcarbone.com</a></p>
                             
                         </div>
                     </div>

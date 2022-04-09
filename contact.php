@@ -56,7 +56,7 @@
 
                     $mail->addReplyTo($email, $lname);
 
-                    $mail->addAddress("abyssiniea@gmail.com");
+                    $mail->addAddress("admin@xcarbone.com");
                     $mail->Subject = $subject;
 
                     $mail->msgHTML($message);
@@ -70,7 +70,7 @@
                   
                      //echo ($send_email) ? 'success' : 'error';
                      $mail->clearAddresses();
-                     $mail->addAddress("abyssiniea@gmail.com");
+                     $mail->addAddress("admin@xcarbone.com");
                      $send_email=$mail->send();
                      echo ($send_email) ? 'success' : 'error';
                      //header("Location: success/");

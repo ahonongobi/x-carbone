@@ -1,3 +1,4 @@
+<?php include 'contact.php' ?>
 <!DOCTYPE html>
 <html lang="zxx">
     <head>
@@ -249,7 +250,7 @@
                     <h3 class="heading text-capitalize mb-4">Get In Touch
                         <span></span>
                     </h3>
-                    <form name="contact-form" class="contact-form" method="post" action="#">
+                    <form name="contact-form" class="contact-form" method="post" action="">
                         <div class="row">
                             <div class="col-md-6 con-gd">
                                 <div class="form-group">
@@ -265,13 +266,13 @@
                             <div class="col-md-6 con-gd">
                                 <div class="form-group">
                                     <p>Send a Message *</p>
-                                    <textarea name="Message" class="form-control" placeholder="Enter Your Message" required=""></textarea>
+                                    <textarea name="message" class="form-control" placeholder="Enter Your Message" required=""></textarea>
                                 </div>
 
                             </div>
                         </div>
                         <div class="form-group mb-0">
-                            <button type="submit" style="background-color: #171428;" class="btn btn-default text-white">Submit</button>
+                            <button name="submit" type="submit" style="background-color: #171428;" class="btn btn-default text-white">Submit</button>
                         </div>
                     </form>
                 </div>
@@ -284,6 +285,8 @@
         <div class="container">
             <footer class="footer-emp-w3ls">
                 <div class="copy-right-top border-top">
+                    <p>1095 Sugar View Dr Ste 500
+                     Sheridan, WY 82801, USA</p>
                     <p class="copy-right text-center text-white py-4">&copy; 2022 Xcarbone. All Rights Reserved</p>
                 </a>
             </p>

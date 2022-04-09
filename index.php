@@ -76,7 +76,7 @@
                                             										We can meet your needs.
                                         </p>
                                         <br> <br>
-                                        <p style="font-size: 12px;" class="mt-3 mb-3 text-white">Dy66 (Dysprosium), Tb65 (Terbium), Nd60 (Neodymium), Ga31 (Gallium), Eu63 (Europium), Sm62 (Samarium), Gd (Gadolinium), Yb70 (Ytterbium), Lu71 (Lutecium)</p>
+                                        <p style="font-size: 12px;" class="mt-3 mb-3 text-white text-center d-flex justify-content-center">Dy66 (Dysprosium), Tb65 (Terbium), Nd60 (Neodymium), Ga31 (Gallium), Eu63 (Europium), Sm62 (Samarium), Gd (Gadolinium), Yb70 (Ytterbium), Lu71 (Lutecium)</p>
                                     </p>
                                     <a href="#contact" class="banner-button2 btn">Contact us</a>
                                 </div>
@@ -199,7 +199,7 @@
                                 </div>
                             </div>
 
-                            <div class="col-lg-4 col-md-6 mt-3 mb-3  service-in text-center mt-lg-0 mt-4">
+                            <div class="col-lg-4 col-md-6 mt-3 mb-3 d-none service-in text-center mt-lg-0 mt-4">
                                 <div class="card">
                                     <div class="card-body">
 

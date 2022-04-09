@@ -10,7 +10,7 @@ body {
 }
 
 .wrap {
-    background: #0b0917;
+    background-image: url(images/23625.jpg) !important; background-size: cover !important;
 
 }
 body a {
@@ -22,6 +22,7 @@ body a {
     text-decoration: none;
 	cursor:pointer;
 	font-family: 'Libre Franklin', sans-serif;
+    background-image: url(images/23625.jpg); background-size: cover;
 }
 button,.btn{
 	cursor:pointer;
@@ -460,7 +461,9 @@ a.banner-button2 {
 .banner-bottom, .banner, .inner-sec-layer, .contact, .skills, .edu-exp, .projects {
     padding: 4em 5em;
 }
-
+.banner-bottom{
+   
+}
 .banner {
     background: url(../images/gob.png) no-repeat center;
     background-size: cover;

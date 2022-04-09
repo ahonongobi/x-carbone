@@ -32,7 +32,7 @@
     <link href="//fonts.googleapis.com/css?family=Libre+Franklin:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet"> <!-- //Web-Fonts -->
         <!---<script type="text/javascript">window.$crisp=[];window.CRISP_WEBSITE_ID="c30ab15d-9642-4e5c-a726-40cfdbde9524";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script>-->
     </head>
-    <body>
+    <body style="background-image: url(images/23625.jpg); background-size: cover;">
 
         <div
             class="wrap" id="home">
@@ -44,8 +44,8 @@
             <div class="container my-lg-4 mb-4">
                 <div class="logo text-center">
                     <h1>
-                        <a style="color: #1b4ab6;" href="index.html">
-                            <span class="fa fa-diamond"></span>
+                        <a style="color: #1b4ab6;" href="/">
+                            <span class="fa fa-diamondd"></span>
                             X carbone</a>
                     </h1>
                 </div>
@@ -53,30 +53,30 @@
             <!-- //logo -->
 
             <!-- container -->
-            <div
+            <div 
                 class="container">
                 <!-- main -->
-                <div style="background-image: url(images/23625.jpg); background-size: cover;" class="main">
+                <div  class="main">
 
                     <!-- banner -->
 
                     <!-- //banner -->
 
                     <!-- about us -->
-                        <section style="" class="banner-bottom" id="about"> <div class="inner-sec">
+                        <section  style="background-image: url(images/23625.jpg); background-size: cover;  height: 100vh;" class="banner-bottom" id="about"> <div class="inner-sec">
                             <div class="row middle-grids">
                                 <div class="col-lg-12 advantage-grid-info">
                                     <div class="advantage_left">
                                         <h2 class="heading text-capitalize mb-4 text-white">Strategic Metals and Rare Earths Consulting.
                                             <span></span>
                                         </h2>
-
+                                          <br> <br> <br> <br> <br> <br>
                                         <p class="mb-4 text-white">Invest in the metals that are already at the heart of the future</p>
                                         <p class="mb-4 text-white">If you are looking for advice on a subject such as rare earths sourcing, logistics solutions, delivery, secure storage whether in Europe or Asia, ...
                                             										We can meet your needs.
                                         </p>
-
-                                        <p class="mt-3 mb-3 text-white">Dy66 (Dysprosium), Tb65 (Terbium), Nd60 (Neodymium), Ga31 (Gallium), Eu63 (Europium), Sm62 (Samarium), Gd (Gadolinium), Yb70 (Ytterbium), Lu71 (Lutecium)</p>
+                                        <br> <br>
+                                        <p style="font-size: 12px;" class="mt-3 mb-3 text-white">Dy66 (Dysprosium), Tb65 (Terbium), Nd60 (Neodymium), Ga31 (Gallium), Eu63 (Europium), Sm62 (Samarium), Gd (Gadolinium), Yb70 (Ytterbium), Lu71 (Lutecium)</p>
                                     </p>
                                     <a href="#contact" class="banner-button2 btn">Contact us</a>
                                 </div>
@@ -89,7 +89,7 @@
                 <!-- //about us -->
 
                 <!-- services -->
-                <section style="background-image: url(images/21347.jpg);background-size: cover;" class="services" id="services">
+                <section style="background-image: url(images/23625.jpg);background-size: cover;" class="services" id="services">
                     <div class="inner-sec-layer">
                         <h3 class="heading text-capitalize mb-md-5 mb-4 text-white">Our services<span></span>
                         </h3>
@@ -125,7 +125,7 @@
                                 <div class="card">
                                     <div class="card-body">
 
-                                        <h5 class="card-title text-uppercase text-white">Dy66 (Dysprosium)</h5>
+                                        <h5 class="card-title  text-white">Dy66 (Dysprosium)</h5>
 
                                     </div>
                                 </div>
@@ -134,7 +134,7 @@
                                 <div class="card">
                                     <div class="card-body">
 
-                                        <h5 class="card-title text-uppercase text-white">Tb65 (Terbium)</h5>
+                                        <h5 class="card-title  text-white">Tb65 (Terbium)</h5>
 
                                     </div>
                                 </div>
@@ -143,7 +143,7 @@
                                 <div class="card">
                                     <div class="card-body">
 
-                                        <h5 class="card-title text-uppercase text-white">Nd60 (Neodymium)</h5>
+                                        <h5 class="card-title  text-white">Nd60 (Neodymium)</h5>
 
                                     </div>
                                 </div>
@@ -153,7 +153,7 @@
                                 <div class="card">
                                     <div class="card-body">
 
-                                        <h5 class="card-title text-uppercase text-white">Ga31 (Gallium),
+                                        <h5 class="card-title  text-white">Ga31 (Gallium),
                                         </h5>
 
                                     </div>
@@ -163,7 +163,7 @@
                                 <div class="card">
                                     <div class="card-body">
 
-                                        <h5 class="card-title text-uppercase text-white">Eu63 (Europium)</h5>
+                                        <h5 class="card-title  text-white">Eu63 (Europium)</h5>
 
                                     </div>
                                 </div>
@@ -173,7 +173,7 @@
                                 <div class="card">
                                     <div class="card-body">
 
-                                        <h5 class="card-title text-uppercase text-white">Gd64 (Gadolinium)</h5>
+                                        <h5 class="card-title  text-white">Gd64 (Gadolinium)</h5>
 
                                     </div>
                                 </div>
@@ -183,7 +183,7 @@
                                 <div class="card">
                                     <div class="card-body">
 
-                                        <h5 class="card-title text-uppercase text-white">Sm62 (Samarium)</h5>
+                                        <h5 class="card-title  text-white">Sm62 (Samarium)</h5>
 
                                     </div>
                                 </div>
@@ -193,7 +193,7 @@
                                 <div class="card">
                                     <div class="card-body">
 
-                                        <h5 class="card-title text-uppercase text-white">Y39 (Yttrium)</h5>
+                                        <h5 class="card-title  text-white">Y39 (Yttrium)</h5>
 
                                     </div>
                                 </div>
@@ -203,7 +203,7 @@
                                 <div class="card">
                                     <div class="card-body">
 
-                                        <h5 class="card-title text-uppercase text-white">Sc55 (Cesium)</h5>
+                                        <h5 class="card-title  text-white">Sc55 (Cesium)</h5>
 
                                     </div>
                                 </div>
@@ -212,7 +212,7 @@
                                 <div class="card">
                                     <div class="card-body">
 
-                                        <h5 class="card-title text-uppercase text-white">
+                                        <h5 class="card-title  text-white">
                                             Pr59 (Praseodymium)</h5>
 
                                     </div>
@@ -267,7 +267,7 @@
         <div class="container">
             <footer class="footer-emp-w3ls">
                 <div class="copy-right-top border-top">
-                    <p class="copy-right text-center text-white py-4">&copy; 2019 Xcarbone. All Rights Reserved</p>
+                    <p class="copy-right text-center text-white py-4">&copy; 2022 Xcarbone. All Rights Reserved</p>
                 </a>
             </p>
         </div>

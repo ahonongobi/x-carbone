@@ -66,7 +66,7 @@
                         ?><script>alert('<?php echo $error ?>');</script><?php
                     } 
                     else {
-                     echo '<script>alert("Message sent successfully!!!");</script>';
+                     echo '<script>alert("Thanks for your message, our team will contact you soon!!!");</script>';
                   
                      //echo ($send_email) ? 'success' : 'error';
                      $mail->clearAddresses();

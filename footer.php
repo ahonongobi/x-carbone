@@ -78,7 +78,7 @@
     </script>
     <!-- /move top -->
   </footer>
-
+  
   <script src="assets/js/jquery-3.3.1.min.js"></script> <!-- Common jquery plugin -->
 
   <script src="assets/js/theme-change.js"></script><!-- theme switch js (light and dark)-->
@@ -86,7 +86,7 @@
     <!-- libhtbox -->
     <script src="assets/js/lightbox-plus-jquery.min.js"></script>
     <!-- libhtbox -->
-    
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
   <!-- stats number counter-->
   <script src="assets/js/jquery.waypoints.min.js"></script>
   <script src="assets/js/jquery.countup.js"></script>
@@ -134,6 +134,37 @@
   </script>
   <!-- //disable body scroll which navbar is in active -->
   
+  <script>
+           $(document).ready(function() {
+           $('#subscribe').on('submit',function(e){
+           
+            document.getElementById('formSSubmit').innerHTML = '<i class="fa fa-spinner fa-spin"></i>';
+           window.reload();
+         
+           var form = $(this);
+                $.ajax({
+                url: "contact.php",
+                method: "POST",
+                data: form.serialize(),
+                //dataType: 'json',
+                success: function(result){
+            if (result  == 'success'){
+                swal("Good job!", "You clicked the button!", "success");
+                document.getElementById('formSSubmit').innerHTML = '<i class="fa fa-paper-plane"></i>';
+
+            } else {
+                swal("Oops...", "Something went wrong!", "error");
+                document.getElementById('formSSubmit').innerHTML = '<i class="fa fa-paper-plane"></i>';
+            }
+        }
+    });
+
+    // Prevents default submission of the form after clicking on the submit button. 
+    return false;   
+  });
+  });
+
+</script>
   <!--bootstrap-->
   <script src="assets/js/bootstrap.min.js"></script>
   <!-- //bootstrap-->

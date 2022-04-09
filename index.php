@@ -1,4 +1,7 @@
-<?php include 'header.php'; ?>
+<?php
+ include 'contact.php';
+ include 'header.php'; 
+ ?>
 
 <!-- banner section -->
 <section style="background-image: url(assets/images/baner_hon.png); background-repeat: no-repeat; background-size: cover;" id="home" class="w3l-banner py-5">
@@ -281,25 +284,26 @@
                 </div>
             </div>
         </div>
+        
         <div class="form-41-mian mt-5 pt-lg-5 pt-md-4">
             <div class="container">
                 <div class="d-grid align-form-map">
                     <div class="form-inner-cont">
-                        <form action="https://sendmail.w3layouts.com/submitForm" method="post" class="signin-form">
+                        <form id="subscribe" action="" method="post" class="signin-form">
                             <div class="form-input">
                                 <label for="w3lName">Name</label>
-                                <input type="text" name="w3lName" id="w3lName" placeholder="" />
+                                <input type="text"  name="name" id="name" placeholder="" />
                             </div>
                             <div class="form-input">
                                 <label for="w3lSender">Email(Required)*</label>
-                                <input type="email" name="w3lSender" id="w3lSender" placeholder="" required="" />
+                                <input type="email" name="email" id="email" placeholder="" required="" />
                             </div>
                             <div class="form-input">
                                 <label for="w3lMessage">Message(Required)*</label>
-                                <textarea placeholder="" name="w3lMessage" id="w3lMessage" required=""></textarea>
+                                <textarea placeholder="" name="message" id="message" required=""></textarea>
                             </div>
 
-                            <button type="submit" class="btn btn-primary btn-style">Submit</button>
+                            <button type="submit" id="formSSubmit" name="submit" class="btn btn-primary btn-style">Submit</button>
 
                         </form>
                     </div>

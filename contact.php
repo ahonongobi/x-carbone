@@ -47,7 +47,7 @@
 
                     $mail->SMTPAuth = true;
 
-                    $mail->Username = "portables9494@gmail.com";
+                    $mail->Username = "suportteams99@gmail.com";
 
                     $mail->Password = "JE@dois@94@94";
 

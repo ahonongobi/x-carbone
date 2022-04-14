@@ -7,7 +7,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta charset="UTF-8"/>
         <meta name="keywords" content="x carbone, carbone,metal"/>
-        <link rel="apple-touch-icon" sizes="57x57" href="images/favicon/">
+        <!--<link rel="apple-touch-icon" sizes="57x57" href="images/favicon/">
     <link rel="apple-touch-icon" sizes="60x60" href="images/favicon/apple-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="images/favicon/apple-icon-72x72.png">
     <link rel="apple-touch-icon" sizes="76x76" href="images/favicon/apple-icon-76x76.png">
@@ -20,9 +20,10 @@
     <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="96x96" href="images/favicon/favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
-    <link rel="manifest" href="images/favicon/manifest.json">
+    <link rel="manifest" href="images/favicon/manifest.json"> -->
     <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="images/favicon/ms-icon-144x144.png">
+    <!--<meta name="msapplication-TileImage" content="images/favicon/ms-icon-144x144.png"> -->
+    <link rel="shortcut icon" type="image/x-icon" href="/1649936838.ico">
     <meta name="theme-color" content="#3b3939">
         <script>
             addEventListener("load", function () {
